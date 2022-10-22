@@ -1,0 +1,5 @@
+15M	/home/angel
+16K	/home/anahi
+4.0K	/home/arely
+4.0K	/home/mayra
+4.0K	/home/nancy

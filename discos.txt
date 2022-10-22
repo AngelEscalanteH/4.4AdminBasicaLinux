@@ -1,0 +1,33 @@
+  *-cdrom:0
+       description: DVD reader
+       product: CD-ROM
+       vendor: VBOX
+       physical id: 0
+       bus info: scsi@0:0.0.0
+       logical name: /dev/cdrom
+       logical name: /dev/sr0
+       version: 1.0
+       capabilities: removable audio dvd
+       configuration: ansiversion=5 status=nodisc
+  *-cdrom:1
+       description: DVD reader
+       product: CD-ROM
+       vendor: VBOX
+       physical id: 1
+       bus info: scsi@1:0.0.0
+       logical name: /dev/sr1
+       version: 1.0
+       capabilities: removable audio dvd
+       configuration: ansiversion=5 status=nodisc
+  *-disk
+       description: ATA Disk
+       product: VBOX HARDDISK
+       vendor: VirtualBox
+       physical id: 0.0.0
+       bus info: scsi@2:0.0.0
+       logical name: /dev/sda
+       version: 1.0
+       serial: VB53b6d7e5-b215f704
+       size: 25GiB (26GB)
+       capabilities: gpt-1.00 partitioned partitioned:gpt
+       configuration: ansiversion=5 guid=33552855-24f9-4155-b14b-7305f647418d logicalsectorsize=512 sectorsize=512

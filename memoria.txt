@@ -1,0 +1,13 @@
+  *-firmware
+       description: BIOS
+       vendor: innotek GmbH
+       physical id: 0
+       version: VirtualBox
+       date: 12/01/2006
+       size: 128KiB
+       capacity: 128KiB
+       capabilities: isa pci cdboot bootselect int9keyboard int10video acpi
+  *-memory
+       description: System memory
+       physical id: 1
+       size: 2GiB
